@@ -26,6 +26,7 @@ p{
 }
 section{
   height: 500px;
+  padding-bottom: 150px;
 }
 .button-top{
   text-decoration: none;
@@ -34,4 +35,22 @@ section{
   font-weight: 700;
   padding: 10px 40px;
   border-radius: 5px;
+  text-transform: uppercase;
+}
+.mid-area{
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+h2{
+  font-size: 40px;
+}
+.button-mid{
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
