@@ -5,10 +5,13 @@ body{
 h1{
   font-size: 50px;;
 }
+h2{
+  font-size: 40px;
+}
 p{
   color: dimgray;
 }
-.name-highlight{
+.orange-highlight{
   color: #FFA500;
 }
 .half-width{
@@ -42,9 +45,6 @@ section{
   background-repeat: no-repeat;
   background-position: right;
 }
-h2{
-  font-size: 40px;
-}
 .button-mid{
   text-decoration: none;
   color: #fff;
@@ -53,4 +53,31 @@ h2{
   padding: 10px 40px;
   border-radius: 5px;
   text-transform: uppercase;
+}
+.experience-area{
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.exp-header{
+  margin-left: 5%;
+}
+.single-experience{
+  box-shadow: 5px 7px 40px dimgray;
+  height: 80%;
+  background-color: #fff;
+}
+#front-end{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg,lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#full-stack{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+footer{
+  text-align: center;
+  font-size: 12px;
 }
